@@ -51,8 +51,8 @@ function geneneratePassword() {
 
         //finally assign the random value to the specified div with h2 content
         var h1El = document.createElement("h3");
-        h1El.setAttribute('style','border-bottom: 2px solid black;');
-        h1El.textContent =myNewPassword.join('');
+        h1El.setAttribute('style','padding:5px; text-decoration: underline;text-underline-position: under');
+        h1El.textContent =myNewPassword.join('') ;
         document.getElementById('mypassword').appendChild(h1El); 
     }
 }
