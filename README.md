@@ -10,4 +10,4 @@ In this project a random pasword generator application is developed. This applic
 There are `password.html`, `password.css` and `password.js` files in this application. 
 In the javascript part all the neccesary divs and buttons are collected by `cueryselector` and hold in a var. Then, if number entry is not confirmed then request ends, else if number is confrmed, an alert pop up. The characters confirmed are pushed into an arrey and out of which random characters based on the numbers needed are selected. This randomly selected number is appended in to a new `h3`.
 
-Deployed Url [Password Generator](https://bbeyenene.github.io/Passwor-generator/);
+Deployed Url [Password Generator](https://bbeyenene.github.io/Passwor-generator/password.html)
