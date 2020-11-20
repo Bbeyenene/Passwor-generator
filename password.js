@@ -8,7 +8,7 @@ function geneneratePassword() {
 
     //prompt and confirmition questions
     var passNun = prompt('How many charaters do you want your password to be?');
-    if (isNaN(passNun.valueOf()) || passNun == 0 || passNun.trim() == '') {
+    if (isNaN(passNun.valueOf()) || passNun == 0 || passNun.trim() == '' && 8 < passNum <128) {
         // if no number value is entered cancel everything.
         alert( 'You have to enter a Number!');
 
